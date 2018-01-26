@@ -4,7 +4,7 @@ const npm = require('./');
 
 const letters = ['n', 'p', 'm'];
 
-const ws = npm().split(' ');
+const ws = npm().toLowerCase().split(' ');
 
 // The generated text should contain 3 words separated by a space
 assert(ws.length, 3);

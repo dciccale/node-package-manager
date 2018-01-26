@@ -1,6 +1,6 @@
 {
   "name": "node-package-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "get other meanings for npm",
   "main": "index.js",
   "scripts": {
