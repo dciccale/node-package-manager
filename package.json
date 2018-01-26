@@ -1,0 +1,34 @@
+{
+  "name": "node-package-manager",
+  "version": "1.0.0",
+  "description": "get other meanings for npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "bin": {
+    "n-p-m": "./bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dciccale/node-package-manager.git"
+  },
+  "keywords": [
+    "node",
+    "package",
+    "manager",
+    "npm",
+    "name",
+    "generator"
+  ],
+  "author": "Denis Ciccale (@dciccale)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dciccale/node-package-manager/issues"
+  },
+  "homepage": "https://github.com/dciccale/node-package-manager#readme",
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
